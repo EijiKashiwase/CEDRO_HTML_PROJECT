@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+	<head>
+		<meta charset="utf-8"/> <!--Configuração de Caracteres-->
+		<title>PERFIL DO INVESTIDOR</title>
+
+		<link rel="stylesheet" type="text/css" href="style.css">
+	</head>
+
+	<body>
+		<div id="dimensionamento" onchange="verifica()" class="container">
+			<h1 id="perfil">PERFIL DO INVESTIDOR - QUESTIONÁRIO </h1>
+			<br>
+			<form action="cadastroSucesso.html">
+				<div class="questao">
+				<p> 1 - Qual o seu comportamento em relação aos seus investimentos? </p>
+				<table id="q1">
+					<tr>
+						<td><input id="riscos" name="comportamento" type="radio" required><span><label for="test1">PRESERVAR MEU DINHEIRO SEM CORRER RISCOS</label></span>&emsp;&emsp;&emsp;&emsp;&ensp;&emsp;&emsp;&emsp;&emsp;&emsp;</td>
+						<td><input id="mod" name="comportamento" type="radio"><span>GANHAR MAIS DINHEIRO, ASSUMINDO RISCOS MODERADOS</span>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;</td>
+						<td><input id="riscos" name="comportamento" type="radio"><span>GANHAR MAIS DINHEIRO, ASSUMINDO RISCOS AGRESSIVOS</span>&emsp;&emsp;</td>
+					</tr>
+				</table>
+
+				<p class="espacamento"> -------------------------------------------------------------</p>
+
+				<p> 2 - Por quanto tempo você deseja manter os seus investimentos? </p>
+				<table id="q2">
+					<tr>		
+						<td><input id="ano1" name="tempInvestimento" type="radio" required><span>ATÉ 1 ANO</span>&emsp;&emsp;&emsp;&emsp;&emsp;</td>
+						<td><input id="ano2" name="tempInvestimento" type="radio"><span>DE 1 A 3 ANOS</span>&emsp;&emsp;&emsp;</td>
+						<td><input id="ano3" name="tempInvestimento" type="radio"><span>DE 1 A 3 ANOS</span></td>
+					</tr>
+				</table>
+				
+				<p class="espacamento"> ------------------------------------------------------------</p>
+
+				<p> 3 - Quantos % desses investimentos você pode precisar em um ano? </p>
+				<table id="q3">
+					<tr>		
+						<td><input id="acima" name="porcentInvestimento" type="radio"required><span>ACIMA DE 75%</span></td>
+						<td><input id="entre" name="porcentInvestimento" type="radio"><span>DE 26% A 74%</span></td>
+						<td><input id="abaixo" name="porcentInvestimento" type="radio"><span>ATÉ 25%</span></td>
+					</tr>
+				</table>
+				
+				<p class="espacamento"> ------------------------------------------------------------</p>
+
+				<p class="questao"> 4 - Qual sua familiaridade com os tipos de investimentos abaixo? Leve em consideração o valor aplicado nos últimos 2 anos. </p>
+				<table>
+				 	<tr>
+				 		<td class="descricao"> TÍTULOS DE RENDA FIXA OU TESOURO DIRETO </td> 
+				 		<td class="descricao"> FUNDOS DE INVESTIMENTO </td>
+				 	</tr> 	
+				 	<tr>	
+				 		<th>	
+				 			<select required>
+								<option value=""> Selecione uma opção </option>
+  								<option value="Nunca"> Nunca operei </option>
+ 								<option value="Pouco"> Opero pouco e não tenho familiaridade </option>
+  								<option value="Eventualmente"> Opero eventualmente e conheço os riscos associados </option>
+  								<option value="Frequentemente"> Opero frequentemente e conheço os riscos associados</option>
+							</select> 
+						</th>
+						<th>
+							<select required>
+								<option value=""> Selecione uma opção </option>
+  								<option value="Nunca">Nunca operei</option>
+ 								<option value="Pouco">Opero pouco e não tenho familiaridade</option>
+  								<option value="Eventualmente">Opero eventualmente e conheço os riscos associados</option>
+  								<option value="Frequentemente">Opero frequentemente e conheço os riscos associados</option>
+							</select> 
+						</th>
+					</tr>	
+				</table> <br>
+
+				<table>
+					<tr>
+				 		<td class="descricao"> AÇÕES A VISTA </td> 
+				 		<td class="descricao"> ALUGUEL DE AÇÕES, TERMOS, OPÇÕES E FUTUROS </td> 
+				 
+				 	</tr>
+					<tr>
+						<th>
+							<select required>
+								<option value=""> Selecione uma opção </option>
+  								<option value="Nunca">Nunca operei</option>
+ 								<option value="Pouco">Opero pouco e não tenho familiaridade</option>
+  								<option value="Eventualmente">Opero eventualmente e conheço os riscos associados</option>
+  								<option value="Frequentemente">Opero frequentemente e conheço os riscos associados</option>
+							</select> 
+						</th>
+
+						<th>
+							<select required>
+								<option value=""> Selecione uma opção </option>
+  								<option value="Nunca">Nunca operei</option>
+ 								<option value="Pouco">Opero pouco e não tenho familiaridade</option>
+  								<option value="Eventualmente">Opero eventualmente e conheço os riscos associados</option>
+  								<option value="Frequentemente">Opero frequentemente e conheço os riscos associados</option>
+							</select>
+						</th>
+					</tr>
+				</table> <br><br><br>
+
+				<div>
+					<a href="Página Principal.html"><button id="buttonVoltar" class="buttonVoltar"> VOLTAR </button></a>
+					<button type="submit" id="buttonSalvar" class="buttonSalvar"> SALVAR </button></a>
+				</div>
+			</form>
+		</div>
+	</body>
+</html>

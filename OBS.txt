@@ -1,0 +1,9 @@
+Olá, seguem algumas observações sobre o projeto...
+
+Sobre os requisitos, existe apenas um que eu exaustivamente tentei resolver mas não consegui encontrar uma solução.
+
+Independente do resultados, gostei de realizar o teste, foi uma excelente oportunidade para recordar um pouco de HTML e CSS, e de quebra aplicar alguns conceitos de JavaScript.
+
+Gostaria de agradecer a todos pela oportunidade.
+
+Grato desde já. Att. Rafael Eiji Kashiwase.

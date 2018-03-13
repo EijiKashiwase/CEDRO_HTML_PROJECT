@@ -1,0 +1,264 @@
+body {
+	margin:0;
+	padding:0;
+	text-align:center;
+}
+
+/***************CSS PARA A "PÁGINA PRÍNCIPAL"***************/
+#dimensionamento {
+	width: 760px;
+	margin:0 auto;			
+	padding: 10px;
+}
+
+#titulo {
+	font-family: Cambria;
+	font-size: 20px;
+}
+
+#informacoes {
+	font-family: Calibri Light;
+}
+
+#buttonSim {
+	font-family: Century Gothic;
+	background-color: white;
+    border: 2px solid rgb(178,66,255);
+    border-radius: 8px;
+    color: black;
+    padding: 10px 60px;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#prancheta {
+	width: 100px;
+	height: 105px;
+	margin-left: 0px;
+}
+
+#button {
+	font-family: Century Gothic;
+	background-color: white;
+    border: 2px solid rgb(178,66,255);
+    border-radius: 8px;
+    color: black;
+    padding: 10px 60px;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+}
+/***************TÉRMINO DO CSS PARA A PÁGINA PRÍNCIPAL"*******************/
+
+/***************CSS PARA A PÁGINA DO "PERFIL DO INVESTIDOR"***************/
+#perfil {
+	font-family: Cambria;
+	font-size: 28px;
+}
+
+#q1 {
+	text-align: left;
+	font-family: Lucida Sans Unicode;
+	font-size: 14px;
+}
+
+#q2 {
+	text-align: left;
+	font-family: Lucida Sans Unicode;
+	font-size: 14px;
+}
+
+#q3 {
+	text-align: left;
+	font-family: Lucida Sans Unicode;
+	font-size: 14px;
+}
+
+#buttonVoltar {
+	margin-left: 45%;
+	font-family: Century Gothic;
+	background-color: white;
+    border: 2px solid gray;
+    border-radius: 8px;
+    color: black;
+    padding: 10px 60px;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#buttonSalvar {
+	margin-left: 2%;
+	font-weight: bold;
+	font-family: Century Gothic;
+	background-color: Orange;
+    border: 2px solid Orange;
+    border-radius: 8px;
+    color: White;
+    padding: 10px 60px;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#buttonSalvar:disabled {
+    background-color: gray;
+    border: 2px solid black;
+    color: white;
+    cursor: not-allowed;
+}
+
+.descricao {
+	position: relative;
+	font-weight: bold;
+	font-size: 13px;
+	color: red;
+}
+
+table {
+	width: 100%;
+	vertical-align: top;
+}
+
+td {
+    height: 50px;
+    vertical-align: top;
+}
+
+.questao {
+	font-family: Century Gothic;
+	font-size: 14px;
+}
+
+.espacamento {
+	font-weight: bold;
+	font-size: 30px;
+    text-align: center;
+}
+
+input[type="radio"]:checked+span
+{
+	font-weight: bold;
+	color:#c40022;
+}
+
+/************************ESTILO DO MODAL"**************************/
+
+body {font-family: Arial, Helvetica, sans-serif;}
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0%;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0.4);
+    -webkit-animation-name: fadeIn;
+    -webkit-animation-duration: 0.4s;
+    animation-name: fadeIn;
+    animation-duration: 0.4s
+}
+
+/* Conteúdo do modal */
+.modal-content {
+    position: fixed;
+    bottom: 30%;
+    background-color: #fefefe;
+	width: 50%;
+	margin-left: 25%;
+    -webkit-animation-name: slideIn;
+    -webkit-animation-duration: 0.4s;
+    animation-name: slideIn;
+    animation-duration: 0.4s
+}
+
+/* Relativo ao botão fechar */
+.close {
+    color: gray;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.modal-header {
+    padding: 2px 16px;
+    background-color: white;
+    color:rgba(7, 99, 219, 0.575);
+}
+
+.modal-body {padding: 2px 16px;}
+
+.modal-footer {
+    padding: 2px 16px;
+    background-color: white;
+    color: black;
+}
+
+#buttonEntendo {
+	font-weight: bold;
+	font-family: Century Gothic;
+	background-color: Orange;
+    border: 2px solid Orange;
+    border-radius: 8px;
+    color: White;
+    padding: 10px 60px;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#buttonEntendo:disabled {
+    background-color: gray;
+    border: 2px solid black;
+    color: white;
+    cursor: not-allowed;
+}
+
+#lorem {
+    font-weight: bold;
+    text-align: left;
+    color: gray;
+}
+
+/* Animação do Modal */
+@-webkit-keyframes slideIn {
+    from {bottom: -300px; opacity: 0} 
+    to {bottom: 0; opacity: 1}
+}
+
+@keyframes slideIn {
+    from {bottom: -300px; opacity: 0}
+    to {bottom: 0; opacity: 1}
+}
+
+@-webkit-keyframes fadeIn {
+    from {opacity: 0} 
+    to {opacity: 1}
+}
+
+@keyframes fadeIn {
+    from {opacity: 0} 
+    to {opacity: 1}
+}
+
+/*****************************************CSS PARA O FORMULÁRIO DE CONFIRMAÇÃO FINAL****************************************/
+#tituloSuc {
+	font-family: Cambria;
+	font-size: 20px;
+}
+
+#infoSuc {
+	font-family: Calibri Light;
+}
